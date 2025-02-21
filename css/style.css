@@ -3,3 +3,11 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.logo-company{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fid.pinterest.com%2Fberrypunkid%2Flogo-simple%2F&psig=AOvVaw2OE0y-PMX702I2zREDeQZJ&ust=1740247003602000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLik8Ler1YsDFQAAAAAdAAAAABAJ);
+    background-color: black;
+    border-radius: 50px;
+}
