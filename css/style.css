@@ -22,10 +22,11 @@ nav {
 }
 nav>a {
     border: 1px solid;
-    color: black;
+    color: rgb(61, 61, 61);
     text-decoration: none;
     padding: 15px;
     border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     
 }
 
