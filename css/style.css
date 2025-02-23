@@ -39,3 +39,15 @@ nav>a {
 .hr{
     visibility: collapse
 }
+
+
+.main-content {
+    display: flex;
+    gap: 40px;
+}
+
+.main-container {
+    border: 1px solid;
+    height: 450px;
+    flex: 1;
+}
