@@ -91,3 +91,12 @@ nav>a {
     margin-top: 20px;
     height: 500px;
 }
+
+footer{
+    border: 1px solid;
+    padding: 20px;
+    text-align: center;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
