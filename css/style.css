@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .main-header{
     display: flex;
     align-items: center;
@@ -10,7 +14,7 @@
     width: 70px;
     background-image: url(https://eswpcd25uod.exactdn.com/blog/wp-content/uploads/2017/05/01-696x696.jpg?strip=all&lossy=1&ssl=1);
     background-size: cover;
-    border-radius: 50px;
+    border-radius: 35px;
 }
 
 nav {
@@ -50,4 +54,20 @@ nav>a {
     border: 1px solid;
     height: 450px;
     flex: 1;
+}
+
+#our-packages>header {
+    height: 100px;
+    margin-top: 40px;
+    text-align: center;
+    align-content: center;
+    background-color: #f6f0ed;
+}
+
+.our-packages-content {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 20px;
+    height: 500px;
 }
