@@ -41,7 +41,8 @@ nav>a {
     border-radius: 0px;
 }
 .hr{
-    visibility: collapse
+    visibility: collapse;
+    height: 15px;
 }
 
 
