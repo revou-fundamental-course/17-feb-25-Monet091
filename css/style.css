@@ -8,12 +8,34 @@
 .logo-company{
     height: 70px;
     width: 70px;
-    background-image: url(https://picsum.photos/seed/picsum/200/300);
+    background-image: url(https://eswpcd25uod.exactdn.com/blog/wp-content/uploads/2017/05/01-696x696.jpg?strip=all&lossy=1&ssl=1);
     background-size: cover;
     border-radius: 50px;
-}.main-header{
-    display: flex
-;
-    align-items: center;
-    justify-content: space-between
+}
+
+nav {
+    display: flex;
+}
+nav>a {
+    border: 1px solid;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+.no-border-left{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.no-border-right{
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.no-border{
+    border-radius: 0px;
+}
+.hr{
+    visibility: collapse
 }
