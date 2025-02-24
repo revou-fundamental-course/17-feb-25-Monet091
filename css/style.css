@@ -91,7 +91,6 @@ nav a:hover{
     gap: 40px;
     justify-content: center;
     margin-top: 20px;
-    height: 500px;
 }
 
 #call-us>header {
@@ -126,15 +125,11 @@ footer{
     justify-content: center;
     gap: 15px;
     margin-top: 25px;
-    transition: transform 0.3s ease-in-out;
-}
 
-.packages-awal:hover{
-    transform: scale(1.05);
 }
 .package-item {
-    width: 200px;
-    height: 110px;
+    width: 300px;
+    height: 150px;
     border-radius: 15px;
     border: 1px solid #ccc;
     display: flex;
@@ -143,6 +138,11 @@ footer{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    transition: transform 0.3s ease-in-out;
+}
+
+.package-item:hover{
+    transform: scale(1.05); 
 }
 
 .package-item p {
