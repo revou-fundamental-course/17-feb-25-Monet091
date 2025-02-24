@@ -66,7 +66,7 @@ nav a:hover{
 .main-content {
     display: flex;
     gap: 40px;
-    max-width: 1200px; /* atur lebar web */
+    max-width: 1200px; 
     margin: 0 auto;
     width: 100%;
 }
@@ -120,33 +120,39 @@ footer{
     border-bottom: none;
 }
 
-.packages-awal{
+.packages-awal {
     display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-content: center;
-    margin-top: 40px;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+    transition: transform 0.3s ease-in-out;
 }
 
-.packages-awal .package-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+.packages-awal:hover{
+    transform: scale(1.05);
+}
+.package-item {
+    width: 200px;
+    height: 110px;
+    border-radius: 15px;
     border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 10px;
-    width: 200px; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.packages-awal .package-item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+.package-item p {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
 }
 
-.packages-awal .package-item p {
-    margin-top: 10px;
-    font-size: 16px;
-}
+
