@@ -119,3 +119,34 @@ footer{
     border-left: none;
     border-bottom: none;
 }
+
+.packages-awal{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.packages-awal .package-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px; 
+}
+
+.packages-awal .package-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.packages-awal .package-item p {
+    margin-top: 10px;
+    font-size: 16px;
+}
