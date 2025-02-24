@@ -90,9 +90,9 @@ nav a:hover{
     display: flex;
     gap: 40px;
     justify-content: center;
-    margin-top: 20px;
-    padding-left: 200px;
-    padding-right: 200px;
+    max-width: 1200px; 
+    margin: 20px auto;
+    padding: 0 20px;
 }
 
 #call-us>header {
