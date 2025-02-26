@@ -94,7 +94,6 @@ nav a:hover{
 }
 
 .main-container {
-    border: 1px solid;
     height: 450px;
     flex: 1;
 }
@@ -212,6 +211,8 @@ footer{
     height: 400px;
     margin: 0 auto;
     overflow: hidden;
+    border-radius: 25px;
+    background-size: cover;
 }
 
 .slide {
