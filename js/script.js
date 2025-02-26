@@ -26,6 +26,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
 
     const name = document.getElementById('name').value.trim();
     const email = document.getElementById('email').value.trim();
+    const subject = document.getElementById('subject').value;
     const message = document.getElementById('message').value.trim();
 
     let isValid = true;
@@ -49,6 +50,14 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
         isValid = false;
     } else {
         document.getElementById('email-error').style.display = 'none';
+    }
+
+    if (subject === '') {
+        document.getElementById('subject-error').textContent = 'Subject is required';
+        document.getElementById('subject-error').style.display = 'block';
+        isValid = false;
+    } else {
+        document.getElementById('subject-error').style.display = 'none';
     }
 
     if (message === '') {
