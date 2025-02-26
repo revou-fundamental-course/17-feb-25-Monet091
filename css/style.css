@@ -90,12 +90,14 @@ nav a:hover{
     gap: 40px;
     max-width: 1200px; 
     margin: 0 auto;
-    width: 100%;
+    padding: 0 20px;
+    background-color: #f1eff0;
 }
 
 .main-container {
     height: 450px;
     flex: 1;
+    margin-top: 20px;
 }
 
 #our-packages>header {
@@ -191,7 +193,7 @@ footer{
 }
 
 .package-item p {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.4);
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
@@ -208,11 +210,10 @@ footer{
     position: relative;
     width: 100%;
     max-width: 800px;
-    height: 400px;
+    height: 350px;
     margin: 0 auto;
     overflow: hidden;
     border-radius: 25px;
-    background-size: cover;
 }
 
 .slide {
@@ -233,4 +234,68 @@ footer{
 
 .slide-3 {
     background-image: url('https://cdn0-production-images-kly.akamaized.net/2ck4c2f8HkoDBpdDcaIEGV4ude4=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2385815/original/045137000_1539769271-1.jpg');
+}
+
+
+/*Contact us*/
+
+#contact-form {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    height: 100px;
+    resize: none;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
 }
