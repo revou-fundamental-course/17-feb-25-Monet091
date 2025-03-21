@@ -23,6 +23,12 @@
     }
 }
 
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -123,7 +129,6 @@ nav a:hover{
     text-align: center;
     align-content: center;
     background-color: #ebebebb6;
-    border-radius: 15px;
 }
 
 .call-us-content {
